@@ -117,7 +117,7 @@ const App = () => {
       <ErrorMessage message={errorMessage} />
       <Filter filterField={filterField} setFilterField={setFilterField} />
 
-      <h3>add a new</h3>
+      <h3>Add a new contact</h3>
       <PersonForm
         addNewName={addNewName}
         newName={newName}
@@ -126,7 +126,7 @@ const App = () => {
         handlerPhoneChange={handlerPhoneChange}
       />
 
-      <h3>Numbers</h3>
+      <h3>Contact list</h3>
       <Persons persons={filteredPersons} removePerson={removePerson} />
     </div>
   );
