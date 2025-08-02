@@ -54,7 +54,7 @@ This is a simple phonebook application built with React. It allows users to:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/phonebook-app.git
+   git clone https://github.com/ant-tur/phonebook-app.git
    cd phonebook-app
    ```
 
@@ -74,6 +74,12 @@ This is a simple phonebook application built with React. It allows users to:
    ```bash
    npx json-server --watch db.json --port 3001
    ```
+
+---
+
+## 🔗 Live Demo
+
+[View Live on GitHub Pages](https://ant-tur.github.io/phonebook-app/)
 
 ---
 
